@@ -33,5 +33,5 @@ void Account::displayInfo() const
 {
     cout << left << setw(12) << accountNumber 
         << setw(20) << owner << setw(15) << getAccountType()
-        << ficex << setprecision(2) << balance << " руб.\n";
+        << fixed << setprecision(2) << balance << " руб.\n";
 }
